@@ -6,6 +6,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.links {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 10px 0 10px;
+}
+
+.links i {
+  color: #3364FF;
+  font-size: 24px;
+  margin-left: 10px;
+}
+
 .container {
   align-items: center;
   display: flex;
@@ -13,7 +26,7 @@ body {
   justify-content: center;
   left: 50%;
   position: absolute;
-  top: 50%;
+  top: 40%;
   transform: translate(-50%, -50%);
 }
 
